@@ -313,6 +313,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--blue-text-color);
+  margin-bottom: 24px;
 }
 .modal-form-field {
   margin-bottom: 8px;
@@ -355,6 +356,9 @@ img {
   position: relative;
 }
 .modal-form-message {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
   resize: none;
   width: 100%;
   height: 120px;
@@ -860,13 +864,52 @@ img {
   display: flex;
 }
 .footer-form-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-button-white);
 }
 .footer-form-wrapper {
+  display: flex;
 }
 .footer-form-input {
-  width: ;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  background-color: transparent;
+}
+.footer-form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04;
+  color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  margin-left: 24px;
+  min-width: 165px;
+  padding: 8px 24px;
+  color: var(--color-button-white);
+  background-color: var(--iris-text-color);
+  gap: 24px;
+  border-radius: 4px;
 }
 .subscribe-icon {
+  margin-left: 16px;
+  width: 24px;
+  height: 24px;
+  fill: var(--color-button-white);
 }
