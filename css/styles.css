@@ -458,6 +458,9 @@ img {
   opacity: 1;
   fill: var(--iris-text-color);
 }
+.label-check-box {
+  text-align: left;
+}
 .modal-form-option-span {
   font-family: "Roboto";
   font-style: normal;
