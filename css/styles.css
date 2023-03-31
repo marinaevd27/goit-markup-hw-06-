@@ -290,6 +290,7 @@ img {
   height: 24px;
   border-radius: 50%;
   background-color: var(--color-cornflower-footer);
+  color: black;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
@@ -298,6 +299,7 @@ img {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: var(--color-ocean-button);
+  color: var(--color-button-white);
 }
 .modal-btn-icon {
   display: flex;
